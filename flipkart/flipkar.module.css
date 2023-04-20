@@ -1,0 +1,326 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 56px;
+    width: 100%;    
+}
+#nav>article{
+    background-color: #2874f0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.empty{
+    width: 125px;
+    height: 56px;
+}
+#nav>article>.logo{
+    width: 130px;
+    height: 56px;
+    display: flex;
+    justify-content: right;
+}
+#nav>article>.logo>img{
+    height: 56px;
+    width: 75px;
+}
+#nav>article>.search{
+    margin-left: 12px;
+    height: 56px;
+    width: 470px;
+    display: flex;
+    align-items: center;
+}
+#nav>article>.search>.outersearchglass{
+    width: 470px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    justify-content: right;
+    padding-right: 15px;
+}
+#nav>article>.search>.outersearchglass>input{
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    padding-left: 10px;
+    border-radius: 2px;
+    width: 415px;
+}
+#nav>article>.search>.outersearchglass>svg{
+    height: 22px;
+    width: 28px;
+    background-color: #fff;
+    
+}
+#nav>article>.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 160px;
+}
+#nav>article>.login>a{
+    border-radius: 2px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 550;
+    color: #2874f0;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 117px;
+    background-color: #fff;
+    text-decoration: none;
+}
+#nav>article>.seller{
+    width: 155px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav>article>.seller>a{
+    color: #fff;
+    font-weight: 550;
+    font-size:16px;
+    text-decoration: none;
+}
+#nav>article>.more{
+    width: 80px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav>article>.more>a{
+    color: #fff;
+    font-weight: 550;
+    font-size: 14px;
+    text-decoration: none;
+}
+#nav>article>.more>a>sub{
+    height: 3px;
+    width: 3px;
+}
+#nav>article>.cart{
+    width: 105px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav>article>.cart>a{
+    color: #fff;
+    font-weight: 550;
+    font-size:16px;
+    text-decoration: none;
+}
+
+/*==================================== section2 ======================================*/
+#nav2{
+    height: 112px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid rgb(201, 201, 201) ;
+}
+#nav2>.outerdiv{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav2>.outerdiv>.div1{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div1>a{
+    height: 80px;
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div1>a>div{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div1>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div2{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div2>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div2>a>div{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div2>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div3{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div3>a{
+    color: black;
+    text-decoration: none;
+}
+#nav2>.outerdiv>.div3>a>div{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div3>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div4{
+    height: 112px;
+    width: 80px;
+    padding: 12px 0px;
+}
+#nav2>.outerdiv>.div4>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div4>a>div{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div4>a>img{
+    height: 64px;
+    margin-left: 5px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div5{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div5>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div5>a>div{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div5>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div6{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div6>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div6>a>div{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div6>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div7{
+    height: 112px;
+    width: 80px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div7>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div7>a>div{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div7>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div8{
+    height: 112px;
+    width: 81px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div8>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div8>a>div{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div8>a>img{
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div9{
+    height: 112px;
+    width: 152px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div9>a{
+    color: black;
+    text-decoration: none;
+}
+#nav2>.outerdiv>.div9>a>div{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+#nav2>.outerdiv>.div9>a>img{
+    margin-left: 25px;
+    height: 64px;
+    width: 64px;
+}
+#nav2>.outerdiv>.div10{
+    
+    height: 112px;
+    width: 131px;
+    padding: 12px 8px;
+}
+#nav2>.outerdiv>.div10>a{
+    text-decoration: none;
+    color: black;
+}
+#nav2>.outerdiv>.div10>a>div{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+#nav2>.outerdiv>.div10>a>img{
+    margin-left: 10px;
+    height: 64px;
+    width: 64px;
+}
