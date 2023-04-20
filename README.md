@@ -1,5 +1,5 @@
 # Clone of Websites by Using React-js
-All the clone are made by React js
+All the clone are made by React js  
 1.Flipkart-Cloning
 2.HotStar-Cloning
 3.Myntra-Cloning
